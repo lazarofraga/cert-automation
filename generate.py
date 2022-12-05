@@ -91,13 +91,6 @@ def send_email(cert, email, cert_path, from_email, password):
 
 def main():
 
-    title = 'API Hacking'
-    name = 'Firstname Lastname'
-    date = 'November 18, 2022'
-    email = 'lazaro.fraga@gmail.com'
-    instructor = 'Sunny Wear'
-    template = 'cert.jpg'
-
     df = pd.read_csv('/home/laz/eventbrite-automation/cert_list.csv')
 
     for index, row in df.iterrows():
